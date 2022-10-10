@@ -14,6 +14,7 @@
 		0931631828F3F17F00E4DB18 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0931631628F3F17F00E4DB18 /* ToDoApp.xcdatamodeld */; };
 		0931631A28F3F18000E4DB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0931631928F3F18000E4DB18 /* Assets.xcassets */; };
 		0931631D28F3F18000E4DB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0931631B28F3F18000E4DB18 /* LaunchScreen.storyboard */; };
+		0931632528F400D000E4DB18 /* Memo model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931632428F400D000E4DB18 /* Memo model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0931631928F3F18000E4DB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0931631C28F3F18000E4DB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0931631E28F3F18000E4DB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0931632428F400D000E4DB18 /* Memo model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memo model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				0931630D28F3F17F00E4DB18 /* AppDelegate.swift */,
 				0931630F28F3F17F00E4DB18 /* SceneDelegate.swift */,
+				0931632428F400D000E4DB18 /* Memo model.swift */,
 				0931631128F3F17F00E4DB18 /* ViewController.swift */,
 				0931631328F3F17F00E4DB18 /* Main.storyboard */,
 				0931631928F3F18000E4DB18 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0931632528F400D000E4DB18 /* Memo model.swift in Sources */,
 				0931631228F3F17F00E4DB18 /* ViewController.swift in Sources */,
 				0931630E28F3F17F00E4DB18 /* AppDelegate.swift in Sources */,
 				0931631028F3F17F00E4DB18 /* SceneDelegate.swift in Sources */,
